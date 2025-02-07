@@ -7,4 +7,4 @@
         - "1433:1433"
       environment:
         ACCEPT_EULA: "Y"
-        SA_PASSWORD: "StrongP@ssword123"
+        SA_PASSWORD: "Type Your Own Password"

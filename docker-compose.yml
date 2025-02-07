@@ -1,0 +1,10 @@
+  version: '3.9'
+  services:
+    sqlserver:
+      image: mcr.microsoft.com/azure-sql-edge
+      container_name: sqlserver
+      ports:
+        - "1433:1433"
+      environment:
+        ACCEPT_EULA: "Y"
+        SA_PASSWORD: "StrongP@ssword123"
